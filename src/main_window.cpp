@@ -54,6 +54,7 @@ MainWindow::MainWindow(QWidget *parent):
     center_wgt->setLayout(lay_main);
     setCentralWidget(center_wgt);
 
+    setMaximumHeight(260);
     connectSignals();
 }
 
